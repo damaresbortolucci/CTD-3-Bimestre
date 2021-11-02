@@ -1,0 +1,72 @@
+#banner{
+    height: calc(100vh - 90px);
+    background-image: url("weCanCodeIt.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#info{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+}
+
+#banner p{
+    font-size: 3em;
+    font-weight: bold;
+    color: #002a53;
+    text-align: center;
+    margin: 0.7em 0;
+}
+
+span{
+    background-color: rgb(184, 7, 7);
+    padding: 15px;
+    text-shadow: 4px 5px 5px rgba(34, 34, 34, 0.726);
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #021d40;
+    width: 600px;
+    font-size: 2em;
+    color: white;
+    padding: 1.5em;
+    border-radius: 0.8em;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 0.8em;
+    outline: none;
+    color: #021d40;
+    font-size: 0.8em;
+}
+
+button{
+    margin-top: 1.2em;
+    padding: 1em;
+    width: 180px;
+    font-size: 2em;
+    color: white;
+    border-radius: 1em;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(184, 7, 7);
+}
+
+button:hover{
+    background-color: #021d40;
+    transition: all .5s ease-in-out;
+}

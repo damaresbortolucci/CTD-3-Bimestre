@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background: #021d40;
+    color: white;
+    padding: 0.5em;
+  }
+  
+  header h1{
+    font-size: 6em;
+    margin: 0 0 0 20%;
+  }
+  
+  nav{
+    margin-right: 2%;
+  }
+  header ul{
+    display: flex;
+    gap: 5px;
+  }
+  
+  header ul li{
+    list-style-type: none;
+  }
+  
+  header li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 9px;
+    font-size: 2em;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+  }
+  
+  header li a:hover{
+    background: rgb(184, 7, 7);
+    color: black;
+  }
