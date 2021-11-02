@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.App{
+  width: 500px;
+  background-color: rgb(233, 212, 206);
+  padding: 2em;
+  margin-top: 5em;
+  font-size: 2em;
+}
+
+.App li{
+  text-align: left;
+}
+
+
