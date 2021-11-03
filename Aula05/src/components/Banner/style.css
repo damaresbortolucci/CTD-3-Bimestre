@@ -3,13 +3,12 @@
     background-image: url("weCanCodeIt.jpg");
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 #info{
-    width: 35%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +36,7 @@ form{
     display: flex;
     flex-direction: column;
     background-color: #021d40;
-    width: 600px;
+    width: 100%;
     font-size: 2em;
     color: white;
     padding: 1.5em;
