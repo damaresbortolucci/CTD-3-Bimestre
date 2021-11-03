@@ -3,8 +3,8 @@ import './style.css';
 const Banner = ({imagem}) => {
 
     return(
-      <section id='banner'>
-        <img src={imagem}  />
+      <section>
+        <img src={imagem} alt="imagem de uma estrada" />
       </section>
     )
   }
